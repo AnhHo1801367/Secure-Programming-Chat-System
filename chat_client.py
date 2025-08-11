@@ -115,6 +115,9 @@ def register():
     if len(pwd) < 8 or not re.search(r"[A-Z]", pwd) or not re.search(r"\d", pwd):
         print("❌ Password must be at least 8 characters long and include a number and an uppercase letter.")
         return
+    if re.match('^[\/w-]+$', uname):
+        print("Username has invalid symbols. Please do not use non alphanumeric values")
+        return
 
     try:
         with open("config/users.json", "r+") as f:
@@ -122,6 +125,7 @@ def register():
             if any(u['username'] == uname for u in data['users']):
                 print("❌ Username already exists.")
                 return
+            
 
             hashed = bcrypt.hashpw(pwd.encode(), bcrypt.gensalt()).decode()
             data['users'].append({

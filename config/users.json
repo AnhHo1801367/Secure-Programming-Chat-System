@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "username": "alice",
+      "password_hash": "$2b$12$eHMy0g9A7kLz3x2kU4Eq7.Xi9zW5WyjPSH/wCdt5tpoTShBQcP6l2"
+    },
+    {
+      "username": "bob",
+      "password_hash": "$2b$12$aZnO5yrbOiPe.YVjzIhEyu3vpGx4YQdAlYm2m0i2j3u.BH2cPKv2W"
+    },
+    {
+      "username": "john",
+      "password_hash": "$2b$12$dDbAdeSbQot76y0OTGc01O.0WdYWCgyj/ohR0FYIazdTi/1w63pEO"
+    },
+    {
+      "username": "james",
+      "password_hash": "$2b$12$deAxz6YoyF38t2gSc.qBr.FEL5XYuL7isn.OZ6u2pfbsyFWR7lMA2"
+    },
+    {
+      "username": "janet",
+      "password_hash": "$2b$12$0RY0QWXCvHW.GuDF/r/SdehOZvwVUYnGNhwk2IgA.1tCZwxBE1chu"
+    },
+    {
+      "username": "juliet",
+      "password_hash": "$2b$12$XbSCNswDj1E1fpn7QSH1u.mGbd5Z/rE66cXbDKgWkE8jBr0DbEKjm"
+    },
+    {
+      "username": "u1",
+      "password_hash": "$2b$12$z7xl1emTqatlByqx08akkerZ6db7HlaR38eywb1WfMUe23SbToata"
+    },
+    {
+      "username": "johnt",
+      "password_hash": "$2b$12$8WnOiSkmAJ27zo197Qp5O..b6eiZIwvhglZSbRh9xzzmuOGn.jOVi"
+    },
+    {
+      "username": "jamoz",
+      "password_hash": "$2b$12$Bl7ppF0kb0PvMHR/.O8Au.ZJ.lQiVOpseIII26UadKd.Unxw/rRm2"
+    },
+    {
+      "username": "u2",
+      "password_hash": "$2b$12$0Jikoq0JfEhLBq/PTHUU0.ky/8qHvxQtt.3t0GX2qy9mHH/97LZuG"
+    },
+    {
+      "username": "uu1",
+      "password_hash": "$2b$12$Iw6wqGpC.O2TF0f0PO/MQOBhJRSdMF5DBHK6UitNxDtxD5qEon6GC"
+    }
+  ]
+}
